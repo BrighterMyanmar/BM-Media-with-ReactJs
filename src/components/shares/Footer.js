@@ -44,8 +44,8 @@ export default function Footer() {
                      <div className="mb-1">
                         <input type="email" className="form-control bg-dark text-white rounded-0" id="email" placeholder="Emial" />
                      </div>
-                     <div class="mb-1">
-                        <textarea class="form-control  bg-dark text-white rounded-0" id="content" rows="3"></textarea>
+                     <div className="mb-1">
+                        <textarea className="form-control  bg-dark text-white rounded-0" id="content" rows="3"></textarea>
                      </div>
                      <button type="submit" className="btn btn-warning text-white float-end btn-sm">Submit</button>
                   </form>

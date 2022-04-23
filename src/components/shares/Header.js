@@ -5,7 +5,7 @@ import p4 from '../../statics/p4.jpg';
 import p5 from '../../statics/p5.jpg';
 import SlideImg from './SlideImg';
 import videoMp4 from '../../statics/video.mp4'
-import {useSelector} from 'react-redux';
+import { useSelector } from 'react-redux';
 
 export default function Header() {
    const siteData = useSelector(state => state.siteData);
